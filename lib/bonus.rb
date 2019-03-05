@@ -22,7 +22,9 @@ def bonus
 
   #code your solution here:
   deaths_icy_grip="dead"
-  epic_tragedy.collect {|item| if item=="alive"; item=deaths_icy_grip end}
+  # epic_tragedy.collect {|item| if item=="status"; item=deaths_icy_grip end}
+  epic_tragedy[:montegue][:hero][:status]=deaths_icy_grip
+  epic_tragedy[:capulet][:heroine][:status]=deaths_icy_grip
 
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
